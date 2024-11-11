@@ -10,7 +10,7 @@ const Footer = () => {
         <p className="text-sm">&copy; 2024. Todos los derechos reservados.</p>
         <div>
           <Link
-            to={{ pathname: "https://www.instagram.com/tu_cuenta" }} // Reemplaza con tu enlace de Instagram
+            to={{ pathname: "https://www.instagram.com/consumingutp/" }} // Reemplaza con tu enlace de Instagram
             target="_blank" // Abre en una nueva pestaña
             rel="noopener noreferrer" // Mejora la seguridad
             className="flex items-center text-yellow-400 hover:underline"

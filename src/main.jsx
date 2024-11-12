@@ -6,8 +6,9 @@ import './index.css'; // Asegúrate de que esto está presente para importar Tai
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Consumerism"> {/* Aquí está el BrowserRouter */}
       <App />
     </BrowserRouter>
   </React.StrictMode>
 );
+

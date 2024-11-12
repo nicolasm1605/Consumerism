@@ -13,22 +13,14 @@ import backgroundImage from './assets/images/background.jpg';
 
 function App() {
   return (
-    <BrowserRouter basename="/Consumerism">
+    <>
       <Header />
       <main
         className="flex-grow bg-cover"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Slider />
-                <Insights />
-              </>
-            }
-          />
+          <Route path="/" element={<><Slider /><Insights /></>} />
           <Route path="/post1" element={<Page1 />} />
           <Route path="/post2" element={<Page2 />} />
           <Route path="/post3" element={<Page3 />} />
@@ -37,7 +29,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 

@@ -13,7 +13,7 @@ import backgroundImage from './assets/images/background.jpg';
 
 function App() {
   return (
-    <>
+    <BrowserRouter basename="/Consumerism">
       <Header />
       <main
         className="flex-grow bg-cover"
@@ -37,7 +37,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

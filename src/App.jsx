@@ -18,6 +18,7 @@ function App() {
       <main
         className="flex-grow bg-cover"
         style={{ backgroundImage: `url(${backgroundImage})` }}
+
       >
         <Routes>
           <Route path="/" element={<><Slider /><Insights /></>} />

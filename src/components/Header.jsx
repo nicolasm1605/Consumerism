@@ -13,7 +13,7 @@ const Header = () => {
           <motion.h1 
             whileHover={{ scale: 1.2 }} 
             whileTap={{ scale: 0.95 }} 
-            className="text-3xl bg-green-200 px-4 py-1 rounded-lg font-bold  "
+            className="text-2xl md:text-lg bg-green-200 px-4 py-1 rounded-lg font-bold "
           >
             Conscious Consumerism
           </motion.h1>

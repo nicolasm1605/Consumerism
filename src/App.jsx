@@ -10,6 +10,7 @@ import Page4 from './pages/Page4';
 import Page5 from './pages/Page5';
 import Insights from './components/Insights';
 import backgroundImage from './assets/images/background.jpg';
+import Hero from './components/Hero';
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
 
       >
         <Routes>
-          <Route path="/" element={<><Slider /><Insights /></>} />
+          <Route path="/" element={<>
+          <Hero/><Slider /><Insights />
+          </>} />
           <Route path="/post1" element={<Page1 />} />
           <Route path="/post2" element={<Page2 />} />
           <Route path="/post3" element={<Page3 />} />

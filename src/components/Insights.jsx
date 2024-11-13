@@ -22,7 +22,7 @@ const Insights = () => {
             whileInView="visible"
             viewport={{ amount: 0.5 }}
             variants={textVariant}
-            className="w-4/5 m-auto py-10 flex flex-col md:flex-row justify-between space-x-5 space-y-10 md:space-y-0">
+            className="w-4/5 m-auto pb-20 flex flex-col md:flex-row justify-between space-x-5 space-y-10 md:space-y-0">
             <div className="md:w-1/3 space-y-4">
                 <h2 className="text-3xl font-bold"> Our Vision</h2>
                 <p >Generate a significative impact to the UTP community and the people interested about the things that normally are consumign</p>

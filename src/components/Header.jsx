@@ -7,13 +7,13 @@ const Header = () => {
 
   return (
     <div className="bg-gray-800">
-      <div className="w-4/5 m-auto  flex justify-between items-center py-5 ">
+      <div className="w-auto pl-10 pr-10 m-auto  flex justify-between items-center py-5 ">
         {/* Título */}
         <Link to="/">
           <motion.h1 
             whileHover={{ scale: 1.2 }} 
             whileTap={{ scale: 0.95 }} 
-            className="text-2xl md:text-lg bg-green-200 px-4 py-1 rounded-lg font-bold "
+            className="text-2xl w-2/3 bg-green-200 px-4 py-1 text-center rounded-lg font-bold "
           >
             Conscious Consumerism
           </motion.h1>
@@ -29,7 +29,7 @@ const Header = () => {
 
         {/* Menú desplegable */}
         {menuOpen && (
-          <div className="absolute right-10 top-12 bg-gray-700 p-4 rounded-lg shadow-lg">
+          <div className="absolute right-5 top-12 bg-gray-700 p-4 rounded-lg shadow-lg">
             <ul className="space-y-2">
               <li><Link to="/post1" className="text-white hover:text-green-300">Post 1</Link></li>
               <li><Link to="/post2" className="text-white hover:text-green-300">Post 2</Link></li>
